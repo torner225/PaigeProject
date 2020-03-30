@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Roommate Finder</string>
+
+    <!-- Strings for activity_profile_details.xml and content_profile_details.xml -->
+    <string name="title_activity_profile_details">Profile Details</string>
+    <string name="profile_details_intro">
+        "Now that your account has been approved, you'll need to fill out your profile! The first"
+        "set of questions will capture some basic information. The remaining questions will ask"
+        "about your living arrangement preferences. This is the data that we will use to match you"
+        "to potential roommates, so please answer honestly. \n\n"
+
+        "For each of the questions below, please indicate your stance by selecting one of the"
+        "options. Each question must be answered. (Make sure you scroll all the way down! You will"
+        "be able to update this information at a later time."
+    </string>
+    <string name="profile_questions_sub_0_title"> "Subsection 0" </string>
+    <string name="profile_question_a"> "Please select your gender." </string>
+    <string name="qa_o1"> "Male" </string>
+    <string name="qa_o3"> "Female" </string>
+    <string name="qa_o5"> "Other" </string>
+    <string name="profile_question_b">
+        "Would you like to live in a gender inclusive room? (This means that your roommate(s)"
+        "could be of any gender.)"
+    </string>
+    <string name="qb_o1"> "Yes" </string>
+    <string name="qb_o3"> "No" </string>
+    <string name="profile_question_c">
+        "Please select the first-year house that you most want to live in. (Potential roommate"
+        "matches will include those who select other houses, but this selection will be factored"
+        "into the matching algorithm.)"
+    </string>
+    <string-array name="houses_array">
+        <item>Fisher-Hassenfeld</item>
+        <item>Gregory</item>
+        <item>Hill</item>
+        <item>Kings Court English</item>
+        <item>Lauder</item>
+        <item>Riepe</item>
+        <item>Stouffer</item>
+        <item>Ware</item>
+        <item>W.E.B. Du Bois</item>
+    </string-array>
+    <string name="profile_details_mid">
+        "Now on to the living arrangement information!\n\n"
+
+        "Remember, each question must be answered. You will be able to update this information at"
+        "a later time."
+    </string>
+
+    <string name="profile_questions_sub_1_title"> "Subsection 1" </string>
+    <string name="profile_question_1"> "1. How much white noise do you prefer when sleeping?" </string>
+    <string name="q1_o1"> "1\nNone!" </string>
+    <string name="q1_o3"> "3\nA little" </string>
+    <string name="q1_o5"> "5\nA lot!" </string>
+    <string name="profile_question_2"> "2. How organized do you prefer shared spaces to be?" </string>
+    <string name="q2_o1"> "1\nNothing out of place!" </string>
+    <string name="q2_o3"> "3\nMost things get put away" </string>
+    <string name="q2_o5"> "5\nThings can be left wherever" </string>
+    <string name="profile_question_3"> "3. How often do you clean your living space?" </string>
+    <string name="q3_o1"> "1\nEvery day" </string>
+    <string name="q3_o3"> "3\nEvery month or so" </string>
+    <string name="q3_o5"> "5\nI don't" </string>
+
+    <string name="profile_questions_sub_2_title"> "Subsection 2" </string>
+    <string name="profile_question_4"> "4. IDK. Some question?" </string>
+    <string name="q4_o1"> "1\nSomething Less!" </string>
+    <string name="q4_o3"> "3\nSomething" </string>
+    <string name="q4_o5"> "5\nSomething More" </string>
+
+    <!-- Strings for activity_short_answers.xml -->
+    <string name="title_activity_short_answer">ShortAnswerActivity</string>
+    <string name="short_answers_intro"> "Here you can answer some questions with open answers to"
+        "display on your profile. This is a great way for people to get to know you better."
+        "The questions that you do answer will only be viewable to people who you have matched"
+        "with.\n\n"
+
+        "You can answer as many or as few questions as you'd like. To answer a question, simply"
+        "type in the box underneath the question. Once you are done, click submit at the bottom."
+    </string>
+
+    <string name="saHint"> "Enter your answer here" </string>
+    <string name="sa1"> "1. If you could erase one TV show from your memory and watch it afresh,"
+        "what show would it be?" </string>
+    <string name="sa1h"> "ex: \"Parks and Recreation,\" to hear the jokes for the first time"
+        "again." </string>
+    <string name="sa2"> "2. What is your least favorite genre of music?" </string>
+    <string name="sa3"> "3. If you were stranded on a deserted island with nothing but 1000 bricks,"
+        " what would you do?" </string>
+    <string name="sa4"> "4. What is your favorite way to waste time?" </string>
+    <string name="sa5"> "5. What popular thing do you hate?" </string>
+    <string name="sa6"> "6. Would you rather fight one horse-size duck or 100 duck-size horses?"
+        "Why?" </string>
+    <string name="sa7"> "7. What is your favorite obscure history fact?" </string>
+
+    <string name="action_settings">Settings</string>
+</resources>
